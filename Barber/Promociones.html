@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROSSY.GS - Promociones</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Norican|Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #search-form {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        #search-input {
+            padding: 8px 12px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            background-color: #f9f9f9;
+        }
+
+        #search-input:focus {
+            border-color: #be0fb0;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+        }
+
+        #search-form button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            margin-left: 8px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s;
+        }
+
+        #search-form button i {
+            font-size: 18px;
+            color: #df3131;
+            transition: color 0.3s;
+        }
+
+        #search-form button:hover i {
+            color: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body>
+        <nav>
+            <ul class="nav">
+                <li class="nav_item nav_item--trigger">
+                    <button class="primary-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                </li>
+                <li class="nav_item">
+                    <a href="/barber/PrincipalBarber/index.html" class="nav_link">Volver</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link">Ubicanos</a>
+                </li>
+                <li class="nav_item">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Buscar promociones...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="logo">
+                <h2 class="logo-heading">ROSSY.GS</h2>
+                <p class="logo-subheading">Rossy's Estilo y Tijeras</p>
+            </div>
+
+            <h1 class="primary-heading">Tu estilo, nuestra pasión.</h1>
+
+
+        </header>
+        <main>
+            <section class="shop" id="shop">
+                <h2 class="secondary-heading secondary-heading--white">Promociones</h2>
+                <div class="shop_box">
+                    <img src="https://i.blogs.es/f0307d/_935de189-a388-4394-9c6c-839c0d9f49a1/450_1000.jpeg" alt="cream and wax" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Día del Padre
+                    </h3>
+                    <p class="basic-content">
+                        Celebra el Día del Padre con un 20% de descuento en todos los cortes de cabello.
+                    </p>
+                    <a class="secondary-btn" style="font-size: 15px;">01/06 - <span style="color: red;">21/06</span></a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://elperuano.pe/fotografia/thumbnail/2014/03/06/000005785M.jpg" alt="beard" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Carnavales
+                    </h3>
+                    <p class="basic-content">
+                        Durante los carnavales, trae a un amigo y ambos obtendrán un 2x1 en cortes para la comparsa.
+                    </p>
+                    <a class="secondary-btn" style="font-size: 15px;">25/03 - <span style="color: red;">15/04</span></a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://img.freepik.com/vector-gratis/ilustracion-fiestas-patrias-planas-hombre-que-sostiene-bandera_23-2149441510.jpg" alt="blade" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Fiestas Patrias
+                    </h3>
+                    <p class="basic-content">
+                        En julio, celebra las Fiestas Patrias con un 25% de descuento en todos nuestros servicios.
+                    </p>
+                    <a class="secondary-btn" style="font-size: 15px;">01/09 - <span style="color: red;">20/09</span></a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://portal.andina.pe/EDPfotografia2/Thumbnail/2010/03/01/000119842W.jpg" alt="combs" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Promoción Estudiantil
+                    </h3>
+                    <p class="basic-content">
+                        Descuento del 15% para estudiantes presentando su carnet universitario.
+                    </p>
+                    <a class="secondary-btn" style="font-size: 15px;">15/08 - <span style="color: red;">15/09</span></a>
+                </div>
+                <div class="shop_box">
+                    <img src="/img/Roriginal.png" alt="razor" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Promoción de Bienvenida
+                    </h3>
+                    <p class="basic-content">
+                        ¡Bienvenido a nuestra tienda! Aprovecha un 20% de descuento en tu primera compra. Utiliza el
+                        código BIENVENIDO20 al finalizar tu compra. Esta oferta es válida por tiempo limitado, así que
+                        no te la pierdas. Disfruta de una gran variedad de productos a precios increíbles.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="contact" id="contact">
+                <h2 class="secondary-heading">Ubicanos </h2>
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d242.82480682190024!2d-74.22679175320933!3d-13.14997605285642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA5JzAwLjAiUyA3NMKwMTMnMzYuNyJX!5e0!3m2!1ses!2spe!4v1717370868181!5m2!1ses!2spe"
+                    frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    style="border: 0;"></iframe>
+            </section>
+            <section class="mailing-list">
+                <h2 class="secondary-heading secondary-heading--dash">Contáctanos</h2>
+                <div class="mailing-list_box">
+                    <p class="mailing-list_message" style="text-align: left; line-height: 1.5;">
+                        <span style="display: block;"><img src="/img/ubicacion.png" alt="Ubicación"
+                                style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> Av 26 de
+                            Enero 518, Ayacucho</span>
+                        <span style="display: block;"><img src="/img/telefono.png" alt="Teléfono"
+                                style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;">
+                            (+51)942055151</span>
+                        <span style="display: block;"><img src="/img/email.png" alt="Email"
+                                style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;">
+                            rossysglamourstudio@gmail.com</span>
+                    </p>
+                </div>
+            </section>
+
+
+
+            <section class="social">
+                <h2 class="secondary-heading secondary-heading--dash">Nuestas Redes</h2>
+                <div class="social_icons">
+                    <i class="fab fa-twitter social_icon" aria-label="twitter"></i>
+                    <i class="fab fa-facebook-f social_icon" aria-label="facebook"></i>
+                    <i class="fab fa-whatsapp social_icon" aria-label="whatsapp"></i>
+                </div>
+
+            </section>
+            <div class="container-fluid bg-secondary text-light footer mt-5 pt-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-3">
+                    <div class="row g-3">
+                        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Rossy Glamour Studio</a>, Todos los derechos
+                            reservados. Diseñado por <a class="border-bottom" href="#">AdoTeam</a>
+                        </div>
+
+                    </div>
+                </div>
+        </footer>
+
+    </body>
+    <!-- partial -->
+    <script src="./script.js"></script>
+    <script src="/Barber/PrincipalBarber/busqueda.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROSSY.GS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Norican|Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #search-form {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        #search-input {
+            padding: 8px 12px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            background-color: #f9f9f9;
+        }
+
+        #search-input:focus {
+            border-color: #be0fb0;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+        }
+
+        #search-form button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            margin-left: 8px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s;
+        }
+
+        #search-form button i {
+            font-size: 18px;
+            color: #df3131;
+            transition: color 0.3s;
+        }
+
+        #search-form button:hover i {
+            color: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body>
+        <nav>
+            <ul class="nav">
+                <li class="nav_item nav_item--trigger">
+                    <button class="primary-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                </li>
+                <li class="nav_item">
+                    <a href="/barber/PrincipalBarber/index.html" class="nav_link">Volver</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link">Ubicanos</a>
+                </li>
+                <li class="nav_item">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Buscar barba...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="logo">
+                <h2 class="logo-heading">ROSSY.GS</h2>
+                <p class="logo-subheading">Rossy's Estilo y Tijeras</p>
+            </div>
+
+            <h1 class="primary-heading">Tu estilo, nuestra pasión.</h1>
+
+
+        </header>
+        <main>
+            <section class="shop" id="shop">
+                <h2 class="secondary-heading secondary-heading--white">Precios</h2>
+                <div class="shop_box">
+                    <img src="https://i.pinimg.com/550x/95/6e/07/956e0727f79320a084d10c965be226c6.jpg" alt="beard trim" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Recorte de Barba Clásico
+                    </h3>
+                    <p class="basic-content">
+                        Un recorte de barba tradicional que proporciona un look limpio y bien definido.
+                    </p>
+                    <a class="secondary-btn">Costo S/15.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://i.pinimg.com/736x/f0/3c/5d/f03c5dab0639c4191d138a28a9ee6bc6.jpg" alt="beard styling" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Diseño de Barba
+                    </h3>
+                    <p class="basic-content">
+                        Personaliza tu barba con un diseño exclusivo y a la moda.
+                    </p>
+                    <a class="secondary-btn">Costo S/20.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://i0.wp.com/hairinmotion.co.uk/wp-content/uploads/2022/11/tutorial-afeitado-con-toalla-caliente.jpg?resize=304%2C380&ssl=1" alt="hot towel shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Afeitado con Toalla Caliente
+                    </h3>
+                    <p class="basic-content">
+                        Un afeitado suave y preciso acompañado de una toalla caliente para una experiencia relajante.
+                    </p>
+                    <a class="secondary-btn">Costo S/18.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://cdn.versum.net/gallery_items/284221/thumb_300_300/el_ritual_del_afeitado.jpg?1589708891" alt="full beard service" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Servicio Completo de Barba
+                    </h3>
+                    <p class="basic-content">
+                        Incluye recorte, diseño y tratamiento hidratante para la barba.
+                    </p>
+                    <a class="secondary-btn">Costo S/25.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://media.gq.com.mx/photos/618d977e6a6e6712bf9ef5f4/master/w_1600%2Cc_limit/GettyImages-873995170-recortar-bigote.jpg" alt="mustache trim" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Recorte de Bigote
+                    </h3>
+                    <p class="basic-content">
+                        Un recorte preciso del bigote para mantenerlo prolijo y bien cuidado.
+                    </p>
+                    <a class="secondary-btn">Costo S/10.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://i.pinimg.com/736x/45/62/41/45624110b1042e3c674baaf9620bb825.jpg" alt="beard and mustache combo" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Combo Barba y Bigote
+                    </h3>
+                    <p class="basic-content">
+                        Recorte y diseño de barba junto con el recorte de bigote.
+                    </p>
+                    <a class="secondary-btn">Costo S/30.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://m.media-amazon.com/images/I/71KR3djDuUL._AC_UF1000,1000_QL80_.jpg" alt="beard coloring" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Tinte de Barba
+                    </h3>
+                    <p class="basic-content">
+                        Añade color a tu barba para un look más juvenil y vibrante.
+                    </p>
+                    <a class="secondary-btn">Costo S/22.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://elpeluquero.com/wp-content/uploads/2022/08/barba-03.png" alt="beard treatment" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Tratamiento Hidratante para Barba
+                    </h3>
+                    <p class="basic-content">
+                        Un tratamiento intensivo para mantener tu barba suave e hidratada.
+                    </p>
+                    <a class="secondary-btn">Costo S/18.00</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="contact" id="contact">
+                <h2 class="secondary-heading">Ubicanos </h2>
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d242.82480682190024!2d-74.22679175320933!3d-13.14997605285642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA5JzAwLjAiUyA3NMKwMTMnMzYuNyJX!5e0!3m2!1ses!2spe!4v1717370868181!5m2!1ses!2spe"
+                    frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    style="border: 0;"></iframe>
+            </section>
+            <section class="mailing-list">
+                <h2 class="secondary-heading secondary-heading--dash">Contáctanos</h2>
+                <div class="mailing-list_box">
+                    <p class="mailing-list_message" style="text-align: left; line-height: 1.5;">
+                        <span style="display: block;"><img src="/Barber/img/ubicacion.png" alt="Ubicación" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> Av 26 de Enero 518, Ayacucho</span>
+                        <span style="display: block;"><img src="/Barber/img/telefono.png" alt="Teléfono" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> (+51)942055151</span>
+                        <span style="display: block;"><img src="/Barber/img/email.png" alt="Email" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> rossysglamourstudio@gmail.com</span>
+                    </p>
+                </div>
+            </section>
+            
+            <section class="social">
+                <h2 class="secondary-heading secondary-heading--dash">Nuestas Redes</h2>
+                <div class="social_icons">
+                    <i class="fab fa-twitter social_icon" aria-label="twitter"></i>
+                    <i class="fab fa-facebook-f social_icon" aria-label="facebook"></i>
+                    <i class="fab fa-whatsapp social_icon" aria-label="whatsapp"></i>
+                </div>
+
+            </section>
+            <div class="container-fluid bg-secondary text-light footer mt-5 pt-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-3">
+                    <div class="row g-3">
+                        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Rossy Glamour Studio</a>, Todos los derechos reservados. Diseñado por <a class="border-bottom" href="#">AdoTeam</a>
+                        </div>
+            
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    <!-- partial -->
+    <script src="./script.js"></script>
+    <script src="/Barber/PrincipalBarber/busqueda.js"></script>
+
+</body>
+
+</html>

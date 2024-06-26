@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Rossy.GS Salon de Belleza</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="/Peluqueriamujer/dist/partes/style.css">
+<style>
+	#search-form {
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+	}
+
+	#search-input {
+		padding: 8px 12px;
+		border: 1px solid #e0e0e0;
+		border-radius: 8px;
+		font-size: 14px;
+		outline: none;
+		transition: border-color 0.3s, box-shadow 0.3s;
+		background-color: #f9f9f9;
+	}
+
+	#search-input:focus {
+		border-color: #be0fb0;
+		box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+	}
+
+	#search-form button {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		padding: 8px;
+		margin-left: 8px;
+		outline: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: color 0.3s;
+	}
+
+	#search-form button i {
+		font-size: 18px;
+		color: #c241a6;
+		transition: color 0.3s;
+	}
+
+	#search-form button:hover i {
+		color: #fc635d;
+	}
+</style>
+<body>
+    <script src="/Peluqueriamujer/dist/busqueda.js"></script>
+<!-- partial:index.partial.html -->
+<aside class="promo clear">
+	<h3>Disfruta nuestras promociones!</h3>
+	<p><span>-20%</span> por nuevo cliente</p>
+	<a href="/Peluqueriamujer/dist/promociones/index.html"><button>- Ver mas descuentos</button></a>
+</aside>
+<nav>
+    <ul class="nav">
+        <li class="nav_item nav_item--trigger">
+            <button class="primary-button">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </li>
+        <li class="nav_item">
+            <a href="/Peluqueriamujer/dist/index.html" class="nav_link">Volver
+            </a>
+        </li>
+        <li class="nav_item">
+            <a href="#location" class="nav_link">Ubicanos</a>
+        </li>
+        <li class="nav_item">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar peinados...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </li>
+    </ul>
+</nav>
+<section class="people-choice" id="customers">
+	<h2 class="secondary-heading people-choice_heading">Peinados</h2>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://i.pinimg.com/736x/2d/1b/62/2d1b62483400f89746c24ac1e066be79.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Moño
+			</span>
+		</div>
+
+		<ul class="people-choice_list">
+			<h2>Costo S/5.00</h2>
+		</ul>
+
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://i.pinimg.com/736x/8c/1a/98/8c1a98851032f503799a091325fc4a75.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Trenza francesa
+			</span>
+		</div>
+
+		<ul class="people-choice_list">
+			<h2>Costo S/12.00</h2>
+		</ul>
+
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://i.pinimg.com/474x/07/cd/7c/07cd7c4a8466d24d7db9c504c72b958e.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Trenza de espiga
+			</span>
+		</div>
+
+		<ul class="people-choice_list">
+			<h2>Costo S/15.00</h2>
+		</ul>
+
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://i.pinimg.com/236x/64/51/1a/64511ab4589f6d44e9e1fe11530cdf4f.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Cola de caballo
+			</span>
+		</div>
+
+		<ul class="people-choice_list">
+			<h2>Costo S/7.00</h2>
+		</ul>
+
+	</div>
+
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://www.instyle.es/medio/2023/11/01/peinado-con-corte-bob-bob-liso-asiatico_b9f29585_231101125007_1080x1350.jpg" alt="parfume"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Bob
+			</span>
+		</div>
+
+		<ul class="people-choice_list">
+			<h2>Costo S/14.00</h2>
+		</ul>
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://lh4.googleusercontent.com/louF-eLn73X4szEUwU6E3D6ogvWMdSF4E2IJP81sogdkHEddRkPfuUIDWrFyyta5f70L1GZSKvzU1VuvKc7-pq54xjuQKfBSasSPQ-F-vRORdfWKuPRPJpRL4ysfvD0r7Fdm-LU=s1600" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Pixie
+			</span>
+		</div>
+		<ul class="people-choice_list">
+			<h2>Costo S/22.00</h2>
+		</ul>
+
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://i.pinimg.com/736x/37/d3/2e/37d32e9027eb35787952da06a0ce6ab6.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Trenza diadema
+			</span>
+		</div>
+		<ul class="people-choice_list">
+			<h2>Costo S/15.00</h2>
+		</ul>
+
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://i.pinimg.com/736x/e8/75/86/e875868ccc604d1be4b96700999db91f.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Media coleta
+			</span>
+		</div>
+		<ul class="people-choice_list">
+			<h2>Costo S/10.00</h2>
+		</ul>
+
+	</div>
+	<div class="people-choice_box">
+		<div class="people-choice_frame">
+			<img src="https://e00-telva.uecdn.es/assets/multimedia/imagenes/2019/09/25/15694056690453.jpg" alt="lotion"
+				class="people-choice_img">
+			<span class="people-choice_ribbon">
+				Moño bajo
+			</span>
+		</div>
+		<ul class="people-choice_list">
+			<h2>Costo S/12.00</h2>
+		</ul>
+
+	</div>
+
+</section>
+<section class="location" id="location">
+	<div class="location-wrapper">
+		<div class="location-image">
+			<img src="https://mviolet.github.io/images-repo/styling-hair.jpg" alt="Ubicación" class="location-img">
+		</div>
+		<div class="location-content">
+			<h2 class="secondary-heading">Ubícanos</h2>
+			<div class="map-container">
+				<iframe class="google-map"
+					src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d242.82480682190024!2d-74.22679175320933!3d-13.14997605285642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA5JzAwLjAiUyA3NMKwMTMnMzYuNyJX!5e0!3m2!1ses!2spe!4v1717370868181!5m2!1ses!2spe"
+					frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+					style="border: 0;"></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+</body>
+<footer>
+	<div class="container-fluid bg-secondary text-light footer mt-5 pt-3 wow fadeIn" data-wow-delay="0.1s">
+		<div class="container py-3">
+			<div class="row g-3">
+				<div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+					&copy; <a class="border-bottom" href="#">Rossy Glamour Studio</a>, Todos los derechos reservados. Diseñado por <a class="border-bottom" href="#">AdoTeam</a>
+				</div>
+				<div class="col-md-6 text-center text-md-end">
+					<div class="d-flex pt-1 m-n1">
+						<a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- partial -->
+  
+</body>
+</html>

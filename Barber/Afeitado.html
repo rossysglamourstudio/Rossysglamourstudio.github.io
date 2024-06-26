@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROSSY.GS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Norican|Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #search-form {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        #search-input {
+            padding: 8px 12px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            background-color: #f9f9f9;
+        }
+
+        #search-input:focus {
+            border-color: #be0fb0;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+        }
+
+        #search-form button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            margin-left: 8px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s;
+        }
+
+        #search-form button i {
+            font-size: 18px;
+            color: #df3131;
+            transition: color 0.3s;
+        }
+
+        #search-form button:hover i {
+            color: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body>
+        <nav>
+            <ul class="nav">
+                <li class="nav_item nav_item--trigger">
+                    <button class="primary-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                </li>
+                <li class="nav_item">
+                    <a href="/Barber/PrincipalBarber/index.html" class="nav_link">Volver</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link">Ubicanos</a>
+                </li>
+                <li class="nav_item">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Buscar afeitado...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="logo">
+                <h2 class="logo-heading">ROSSY.GS</h2>
+                <p class="logo-subheading">Rossy's Estilo y Tijeras</p>
+            </div>
+
+            <h1 class="primary-heading">Tu estilo, nuestra pasión.</h1>
+
+        </header>
+        <main>
+            <section class="shop" id="shop">
+                <h2 class="secondary-heading secondary-heading--white">Precios</h2>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="classic shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Afeitado Clásico
+                    </h3>
+                    <p class="basic-content">
+                        Un afeitado tradicional utilizando navaja, proporcionando un acabado suave y profesional.
+                    </p>
+                    <a class="secondary-btn">Costo S/20.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="hot towel shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Afeitado con Toalla Caliente
+                    </h3>
+                    <p class="basic-content">
+                        Disfruta de una experiencia de lujo con toallas calientes que abren los poros, facilitando un afeitado más apurado.
+                    </p>
+                    <a class="secondary-btn">Costo S/25.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="straight razor shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Afeitado con Navaja Recta
+                    </h3>
+                    <p class="basic-content">
+                        Un afeitado meticuloso y preciso utilizando una navaja recta, ideal para obtener un resultado perfecto.
+                    </p>
+                    <a class="secondary-btn">Costo S/30.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="beard trim and shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Recorte de Barba y Afeitado
+                    </h3>
+                    <p class="basic-content">
+                        Mantén tu barba en forma con un recorte profesional seguido de un afeitado para un look limpio y pulido.
+                    </p>
+                    <a class="secondary-btn">Costo S/35.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="luxury shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Afeitado de Lujo
+                    </h3>
+                    <p class="basic-content">
+                        Una experiencia de afeitado superior con productos de alta calidad y técnicas avanzadas para un acabado impecable.
+                    </p>
+                    <a class="secondary-btn">Costo S/40.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="head shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Afeitado de Cabeza
+                    </h3>
+                    <p class="basic-content">
+                        Un afeitado completo de la cabeza, proporcionando un aspecto completamente calvo y suave.
+                    </p>
+                    <a class="secondary-btn">Costo S/30.00</a>
+                </div>
+                <div class="shop_box">
+                    <img src="https://s19.postimg.cc/62oq7xpz7/blade.png" alt="scalp treatment and shave" class="heading-icon">
+                    <h3 class="terziary-heading">
+                        Tratamiento de Cuero Cabelludo y Afeitado
+                    </h3>
+                    <p class="basic-content">
+                        Un tratamiento integral del cuero cabelludo seguido de un afeitado para mantener la salud y el aspecto de la piel.
+                    </p>
+                    <a class="secondary-btn">Costo S/45.00</a>
+                </div>
+            </section>
+            <script src="/Barber/PrincipalBarber/busqueda.js"></script>
+        </main>
+        <footer>
+            <section class="contact" id="contact">
+                <h2 class="secondary-heading">Ubícanos</h2>
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d242.82480682190024!2d-74.22679175320933!3d-13.14997605285642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA5JzAwLjAiUyA3NMKwMTMnMzYuNyJX!5e0!3m2!1ses!2spe!4v1717370868181!5m2!1ses!2spe"
+                    frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    style="border: 0;"></iframe>
+            </section>
+            <section class="mailing-list">
+                <h2 class="secondary-heading secondary-heading--dash">Contáctanos</h2>
+                <div class="mailing-list_box">
+                    <p class="mailing-list_message" style="text-align: left; line-height: 1.5;">
+                        <span style="display: block;"><img src="/Barber/img/ubicacion.png" alt="Ubicación" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> Av 26 de Enero 518, Ayacucho</span>
+                        <span style="display: block;"><img src="/Barber/img/telefono.png" alt="Teléfono" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> (+51)942055151</span>
+                        <span style="display: block;"><img src="/Barber/img/email.png" alt="Email" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> rossysglamourstudio@gmail.com</span>
+                    </p>
+                </div>
+            </section>
+
+            <section class="social">
+                <h2 class="secondary-heading secondary-heading--dash">Nuestras Redes</h2>
+                <div class="social_icons">
+                    <i class="fab fa-twitter social_icon" aria-label="twitter"></i>
+                    <i class="fab fa-facebook-f social_icon" aria-label="facebook"></i>
+                    <i class="fab fa-whatsapp social_icon" aria-label="whatsapp"></i>
+                </div>
+
+            </section>
+            <div class="container-fluid bg-secondary text-light footer mt-5 pt-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-3">
+                    <div class="row g-3">
+                        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+
+
+
+
+                            

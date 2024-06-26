@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ROSSY.GS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Norican|Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #search-form {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        #search-input {
+            padding: 8px 12px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            background-color: #f9f9f9;
+        }
+
+        #search-input:focus {
+            border-color: #be0fb0;
+            box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+        }
+
+        #search-form button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            margin-left: 8px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s;
+        }
+
+        #search-form button i {
+            font-size: 18px;
+            color: #df3131;
+            transition: color 0.3s;
+        }
+
+        #search-form button:hover i {
+            color: #005bb5;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav_item nav_item--trigger">
+                <button class="primary-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </li>
+            <li class="nav_item">
+                <a href="/barber/PrincipalBarber/index.html" class="nav_link">Volver</a>
+            </li>
+            <li class="nav_item">
+                <a href="#contact" class="nav_link">Ubicanos</a>
+            </li>
+            <li class="nav_item">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Buscar peinados especiales...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="logo">
+            <h2 class="logo-heading">ROSSY.GS</h2>
+            <p class="logo-subheading">Rossy's Estilo y Tijeras</p>
+        </div>
+        <h1 class="primary-heading">Tu estilo, nuestra pasión.</h1>
+    </header>
+    <main>
+        <section class="shop" id="shop">
+            <h2 class="secondary-heading secondary-heading--white">Precios</h2>
+            <div class="shop_box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4n0Xvs6bSx2V43gAwLEDQbH4SRnQINEaFGg&s" alt="cream and wax" class="heading-icon">
+                <h3 class="terziary-heading">
+                    Peinado Clásico
+                </h3>
+                <p class="basic-content">
+                    Un peinado tradicional que ofrece un look limpio y elegante, perfecto para cualquier ocasión.
+                </p>
+                <a  class="secondary-btn">Costo S/10.00</a>
+            </div>
+            <div class="shop_box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY2LMtT9Wmvsqq1Kexf5e7czGyjkypFVGI01aJZbTd2QAlEM9PGKAScQdx18XAAukB_hk&usqp=CAU" alt="beard" class="heading-icon">
+                <h3 class="terziary-heading">
+                    Peinado Moderno
+                </h3>
+                <p class="basic-content">
+                    Estilos contemporáneos y a la moda, perfectos para quienes buscan un look actualizado y trendy.
+                </p>
+                <a class="secondary-btn">Costo S/15.00</a>
+            </div>
+            <div class="shop_box">
+                <img src="https://www.clara.es/medio/2023/07/20/cortes-de-pelo-corto-para-hombre-spiky_dbcf4867_230720145105_800x1000.jpg" alt="blade" class="heading-icon">
+                <h3 class="terziary-heading">
+                    Recogido Elegante
+                </h3>
+                <p class="basic-content">
+                    Un peinado elegante y sofisticado ideal para eventos especiales y ocasiones formales.
+                </p>
+                <a  class="secondary-btn">Costo S/20.00</a>
+            </div>
+            <div class="shop_box">
+                <img src="https://d2xo0wx345h26t.cloudfront.net/wp-content/uploads/2022/07/Mohawk-trenzado.jpg" alt="combs" class="heading-icon">
+                <h3 class="terziary-heading">
+                    Trenzado Creativo
+                </h3>
+                <p class="basic-content">
+                    Trenzas únicas y creativas que añaden un toque de originalidad y estilo a tu look.
+                </p>
+                <a  class="secondary-btn">Costo S/18.00</a>
+            </div>
+            <div class="shop_box">
+                <img src="https://i0.wp.com/dulceafro.com/wp-content/uploads/2022/12/fade1.jpg?resize=564%2C662&ssl=1" alt="razor" class="heading-icon">
+                <h3 class="terziary-heading">
+                    Estilo Afro
+                </h3>
+                <p class="basic-content">
+                    Peinados afro con personalidad y carácter, perfectos para expresar tu estilo único.
+                </p>
+                <a  class="secondary-btn">Desde S/25.00</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contact" id="contact">
+            <h2 class="secondary-heading">Ubicanos </h2>
+            <iframe class="google-map"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d242.82480682190024!2d-74.22679175320933!3d-13.14997605285642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDA5JzAwLjAiUyA3NMKwMTMnMzYuNyJX!5e0!3m2!1ses!2spe!4v1717370868181!5m2!1ses!2spe"
+                frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                style="border: 0;"></iframe>
+        </section>
+            <section class="mailing-list">
+                <h2 class="secondary-heading secondary-heading--dash">Contáctanos</h2>
+                <div class="mailing-list_box">
+                    <p class="mailing-list_message" style="text-align: left; line-height: 1.5;">
+                        <span style="display: block;"><img src="/Barber/img/ubicacion.png" alt="Ubicación" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> Av 26 de Enero 518, Ayacucho</span>
+                        <span style="display: block;"><img src="/Barber/img/telefono.png" alt="Teléfono" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> (+51)942055151</span>
+                        <span style="display: block;"><img src="/Barber/img/email.png" alt="Email" style="width: 20px; height: 20px; margin-right: 10px; vertical-align: middle;"> rossysglamourstudio@gmail.com</span>
+                    </p>
+                </div>
+            </section>
+            
+            
+
+            <section class="social">
+                <h2 class="secondary-heading secondary-heading--dash">Nuestas Redes</h2>
+                <div class="social_icons">
+                    <i class="fab fa-twitter social_icon" aria-label="twitter"></i>
+                    <i class="fab fa-facebook-f social_icon" aria-label="facebook"></i>
+                    <i class="fab fa-whatsapp social_icon" aria-label="whatsapp"></i>
+                </div>
+
+            </section>
+            <div class="container-fluid bg-secondary text-light footer mt-5 pt-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-3">
+                    <div class="row g-3">
+                        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Rossy Glamour Studio</a>, Todos los derechos reservados. Diseñado por <a class="border-bottom" href="#">AdoTeam</a>
+                        </div>
+            
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    <!-- partial -->
+    <script src="./script.js"></script>
+    <script src="/Barber/PrincipalBarber/busqueda.js"></script>
+
+</body>
+
+</html>
